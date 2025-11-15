@@ -4,7 +4,7 @@ from openai import OpenAI
 import os
 import time
 
-load_dotenv()
+#load_dotenv()
 
 client = OpenAI(api_key=st.secrets["OPENAI_TOKEN"])
 
